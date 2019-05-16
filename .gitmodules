@@ -1,0 +1,12 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/elate"]
+	path = themes/elate
+	url = https://github.com/saey55/hugo-elate-theme.git
+[submodule "themes/creative-portfolio"]
+	path = themes/creative-portfolio
+	url = https://github.com/kishaningithub/hugo-creative-portfolio-theme.git
+[submodule "themes/highlights"]
+	path = themes/highlights
+	url = https://github.com/schmanat/hugo-highlights-theme.git
