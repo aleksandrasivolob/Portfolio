@@ -2,7 +2,7 @@
 baseurl = "https://www.example.com"
 languageCode = "en-us"
 title = "Highlights"
-theme = "hugo-highlights-theme-master"
+theme = "hugo-highlights-theme"
 
 # Enter your tracking code to enable Google analytics
 googleAnalytics = ""
@@ -14,10 +14,10 @@ googleAnalytics = ""
   # All icons using Fontawesom's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
   # for more icons.
 
-  # To provide more meta data for search engines feel free to add a few informations.
+  # To provide more meta data for search engings feel free to add a few informations.
   # This lines will be inserted as meta tags.
-  name = "Sasha Sivolob"
-  description = "A Software Developer with a passion for plants."
+  name = "Your Name"
+  description = "Your Description"
 
   # For a static site it's not possible to provide a contact form. The contact form uses
   # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
@@ -30,7 +30,7 @@ googleAnalytics = ""
   # - send a dummy email to yourself to confirm your account
   # - click the confirmation link in the email from www.formspree.io
   # - That's all. Enjoy mailing!
-  email = "aleksandrasivolob@gmail.com"
+  email = "your@mail.com"
 
   # If this param is set to true, every section gets an own background image (located at static/images)
   # to change the image you could use the param picture on every section.
@@ -40,10 +40,9 @@ googleAnalytics = ""
   # hero Section
   [params.hero]
     type = "hero"
-    title = "Sasha Sivolob"
-    description = "A software developer with a love of plants."
-# description = "a fun litte { responsive } single Pager by [HTML5UP](//html5up.net)"
-    buttontext = "Click for more"
+    title = "Highlights"
+    description = "a fun litte { responsive } single Pager by [HTML5UP](//html5up.net)"
+    buttontext = "begin"
 
   # about section
   [[params.block]]
@@ -53,7 +52,7 @@ googleAnalytics = ""
     description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
     buttontext = "next"
     # the picture is stored at static/images/
-    picture = "red_yucca.jpg"
+    picture = "pic01.jpg"
 
   # skill section
   [[params.block]]
@@ -63,15 +62,15 @@ googleAnalytics = ""
     description = "Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate."
     buttontext = "next"
     # the picture is stored at static/images/
-    picture = "coleus.jpg"
+    picture = "pic02.jpg"
 
     [[params.block.item]]
-      icon = "fa-gamepad"
-      title = "Casual Gamer"
+      icon = "fa-camera-retro"
+      title = "Magna Etiam"
 
     [[params.block.item]]
-      icon = "fa-pagelines"
-      title = "Plant Enthusiast"
+      icon = "fa-pencil"
+      title = "Lorem Ipsum"
 
     [[params.block.item]]
       icon = "fa-code"
